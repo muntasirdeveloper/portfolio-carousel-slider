@@ -1,0 +1,88 @@
+/***************
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Arvo', serif;
+*****************/
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+h2,
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-family: 'Arvo', serif;
+
+}
+
+h2 {
+    color: #333;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+h3 {
+    color: #222;
+    font-size: 14px;
+}
+
+#testimonial {
+    background-color: #F63854;
+    padding: 50px 0;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.img-thumb img{
+    width: inherit !important;
+    margin: auto;
+    border-radius: 50%;
+    padding: 20px 0;
+}
+
+.item {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 30px 0;
+    padding: 30px 20px;
+}
+
+.star-icons {
+    color: #F63854;
+    font-size: 15px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background-color: #fff;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #F63854;
+    border: 2px solid #fff;
+    height: 10px;
+    width: 10px;
+}
+
+@media screen and (max-width: 1199.98px) {
+    .container {
+        width: 95%;
+    }
+}
